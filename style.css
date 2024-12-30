@@ -1,0 +1,120 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body #home{
+  background-image: url(back.jpg); 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+ 
+  
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar-nav {
+  margin: auto; 
+}
+
+
+footer,.back{
+  background-image: url(back.jpg);
+  background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-attachment: fixed;
+  height:100%;
+}
+header nav ul li:hover{
+  color: black;
+  background-color: #00b2da;
+  padding: 3px;
+  transition: 0.5s;
+
+}
+
+.homeIcons a i:hover{
+  background-color:white;  
+  transition: 0.8s;
+}
+#home main .button {
+  border-radius: 0;
+   width: 200px;
+    border: 2px solid #00b2da;
+}
+#home main .button:hover {
+  color:black;
+  background-color: #00b2da;  
+  transition: 0.5s;
+  border: none;
+}
+
+#about .content a:hover{
+  color:black;
+  background-color: #00b2da;  
+  transition: 0.5s;
+  border: none;
+}
+
+
+.aboutIcons a i:hover {
+  background-color:black;  
+  transition: 0.8s;  
+  
+}
+#contact #Hey:hover{
+  color:white !important;;
+  background-color:#00b2da !important;;  
+  transition: 0.5s;  
+  
+}
+.footerIcons a i:hover {
+  background-color:white;  
+  color: black;
+  
+  transition: 0.5s;  
+  
+}
+
+
+@media screen and (max-width:980px){
+  #home main p{
+      text-align: center;
+      font-size: 20px;
+  }
+  #navbarNav{
+    display: none;
+   }
+  
+
+ #about .container{
+      text-align: center;
+  }
+ #about .content .header{
+      text-align: start;
+      padding:20px 0;
+  }
+
+  #Portfolio a{
+    margin: 5px;
+  }
+  
+ .form input, #FormTextarea1 {
+  font-size: 13px;
+
+ }
+ footer .foot{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  
+ }
+ 
+}
